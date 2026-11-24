@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom"><channel>
+<title>Creators Lab</title><link>https://vannakaye.github.io/creators-lab/podcast</link><language>en-au</language>
+<description>Long conversations with the people we cover, every second Thursday.</description><itunes:author>Creators Lab</itunes:author>
+<itunes:image href="https://vannakaye.github.io/creators-lab/img/podcast-cover.jpg"/><itunes:category text="Science"/><itunes:explicit>false</itunes:explicit>
+
+<atom:link href="https://vannakaye.github.io/creators-lab/podcast.xml" rel="self" type="application/rss+xml"/>
+
+</channel></rss>
