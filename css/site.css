@@ -297,6 +297,7 @@ button { cursor: pointer; }
 .a-meta { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 32px; padding-top: 14px; border-top: 1px solid var(--rule); font-size: 11px; font-weight: 500; color: var(--text-muted); }
 .a-meta b { font-weight: 500; color: var(--text); margin-right: 10px; }
 .a-meta a:hover { color: var(--blue); }
+.byline-role a { text-decoration: underline; text-underline-offset: 2px; }
 .a-hero { margin: 48px var(--pad) 0; }
 .a-hero__img { aspect-ratio: 16 / 9; overflow: hidden; background: #000; }
 .figcap { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px; padding-top: 12px; }
@@ -343,6 +344,8 @@ button { cursor: pointer; }
 .callout b { display: block; font-size: 11px; font-weight: 500; margin-bottom: 8px; }
 .b-img { margin-top: 44px !important; }
 .b-img--wide { margin-right: calc(-1 * min(260px, 30vw)); }
+/* The breakout reaches into the aside column, which only sits beside the body on wide screens. */
+@media (max-width: 1439px) { .b-img--wide { margin-right: 0; } }
 .b-img img { width: 100%; height: auto; }
 .b-gallery { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
 .b-gallery img { width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
